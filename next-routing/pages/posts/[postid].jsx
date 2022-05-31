@@ -18,6 +18,16 @@ export async function getStaticPaths() {
     },
   }));
   return {
+    /*
+      paths:[
+          {
+              params: {postId: '1'},
+          }
+          {
+              params: {postId: '2'}
+          }
+      ]
+      */
     paths,
     fallback: false,
   };
@@ -34,5 +44,7 @@ export async function getStaticProps(context) {
     props: {
       post: data,
     },
+    revalidate: 10,
   };
 }
+//revalidate rebuild the page after every 10sec if it fetch

@@ -1,0 +1,36 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "News 1",
+      "category": "sports"
+    },
+    {
+      "id": 2,
+      "title": "News 2",
+      "category": "politics"
+    },
+    {
+      "id": 3,
+      "title": "News 3",
+      "category": "enter"
+    },
+    {
+      "id": 4,
+      "title": "News 4",
+      "category": "enter"
+    }
+  ],
+  "dashboard": [
+    {
+      "id": 1,
+      "posts": "5",
+      "likes": 100,
+      "followers":20,
+      "following":50
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
