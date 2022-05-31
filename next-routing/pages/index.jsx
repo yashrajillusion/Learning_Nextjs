@@ -11,6 +11,8 @@ function Home() {
     <div>
       <h1>Home Page</h1>
       <Link href={"/blog"}>Blog</Link>
+      <Link href={"/profile"}>Profile</Link>
+      <Link href={"/posts"}>Posts</Link>
 
       <Link href={"/product"}>
         <a>Products</a>
